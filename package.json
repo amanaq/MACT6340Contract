@@ -1,0 +1,23 @@
+{
+  "name": "mact6340contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat coverage",
+    "coverage": "npx hardhat coverage",
+    "deploy": "node ./scripts/deploy.js "
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [],
+  "author": "Amana Qureshi",
+  "license": "MIT",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.2.0",
+    "dotenv": "^16.4.7",
+    "hardhat": "^2.22.19"
+  }
+}
